@@ -1,4 +1,0 @@
-[console_scripts]
-encoder_simulator_node = precision_positioning_control.encoder_simulator_node:main
-pid_controller_node = precision_positioning_control.pid_controller_node:main
-

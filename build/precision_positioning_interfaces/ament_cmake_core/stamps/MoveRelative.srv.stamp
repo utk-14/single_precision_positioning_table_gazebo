@@ -1,6 +1,0 @@
-# Request
-float64 distance_mm
----
-bool success
-string message
-float64 final_position_mm

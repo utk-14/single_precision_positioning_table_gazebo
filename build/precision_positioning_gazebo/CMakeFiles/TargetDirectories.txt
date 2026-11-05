@@ -1,9 +1,0 @@
-/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_gazebo/CMakeFiles/uninstall.dir
-/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_gazebo/CMakeFiles/precision_positioning_gazebo_uninstall.dir
-/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_gazebo/CMakeFiles/test.dir
-/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_gazebo/CMakeFiles/edit_cache.dir
-/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_gazebo/CMakeFiles/rebuild_cache.dir
-/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_gazebo/CMakeFiles/list_install_components.dir
-/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_gazebo/CMakeFiles/install.dir
-/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_gazebo/CMakeFiles/install/local.dir
-/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_gazebo/CMakeFiles/install/strip.dir
