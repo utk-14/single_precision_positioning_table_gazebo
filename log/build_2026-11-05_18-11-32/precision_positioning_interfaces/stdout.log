@@ -1,0 +1,361 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 4.9.2 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/uj/Downloads/precision_positioning_ws/build/precision_positioning_interfaces
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  4%] Built target ament_cmake_python_copy_precision_positioning_interfaces
+running egg_info
+creating precision_positioning_interfaces.egg-info
+writing precision_positioning_interfaces.egg-info/PKG-INFO
+writing dependency_links to precision_positioning_interfaces.egg-info/dependency_links.txt
+writing top-level names to precision_positioning_interfaces.egg-info/top_level.txt
+writing manifest file 'precision_positioning_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'precision_positioning_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'precision_positioning_interfaces.egg-info/SOURCES.txt'
+[  4%] Built target ament_cmake_python_build_precision_positioning_interfaces_egg
+[  4%] Built target precision_positioning_interfaces__rs
+[  4%] Built target precision_positioning_interfaces__cpp
+[  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 10%] [32mBuilding C object CMakeFiles/precision_positioning_interfaces__rosidl_generator_c.dir/rosidl_generator_c/precision_positioning_interfaces/srv/detail/home__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/precision_positioning_interfaces__rosidl_generator_c.dir/rosidl_generator_c/precision_positioning_interfaces/srv/detail/reset_encoder__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/precision_positioning_interfaces__rosidl_generator_c.dir/rosidl_generator_c/precision_positioning_interfaces/srv/detail/emergency_stop__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/precision_positioning_interfaces__rosidl_generator_c.dir/rosidl_generator_c/precision_positioning_interfaces/srv/detail/move_absolute__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/precision_positioning_interfaces__rosidl_generator_c.dir/rosidl_generator_c/precision_positioning_interfaces/srv/detail/move_relative__functions.c.o[0m
+[ 18%] [32m[1mLinking C shared library libprecision_positioning_interfaces__rosidl_generator_c.so[0m
+[ 18%] Built target precision_positioning_interfaces__rosidl_generator_c
+[ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/precision_positioning_interfaces/srv/home__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/precision_positioning_interfaces/srv/reset_encoder__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/precision_positioning_interfaces/srv/emergency_stop__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/precision_positioning_interfaces/srv/move_relative__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/precision_positioning_interfaces/srv/move_absolute__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/precision_positioning_interfaces/srv/detail/dds_fastrtps/move_absolute__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/precision_positioning_interfaces/srv/detail/dds_fastrtps/move_relative__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/precision_positioning_interfaces/srv/detail/dds_fastrtps/emergency_stop__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/precision_positioning_interfaces/srv/detail/dds_fastrtps/home__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/precision_positioning_interfaces/srv/detail/dds_fastrtps/reset_encoder__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/precision_positioning_interfaces/srv/detail/home__type_support_c.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/precision_positioning_interfaces/srv/detail/emergency_stop__type_support_c.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/precision_positioning_interfaces/srv/detail/reset_encoder__type_support_c.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/precision_positioning_interfaces/srv/detail/home__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/precision_positioning_interfaces/srv/home__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/precision_positioning_interfaces/srv/detail/move_absolute__type_support_c.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/precision_positioning_interfaces/srv/detail/move_relative__type_support_c.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/precision_positioning_interfaces/srv/emergency_stop__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/precision_positioning_interfaces/srv/reset_encoder__type_support.cpp.o[0m
+[ 54%] [32m[1mLinking CXX shared library libprecision_positioning_interfaces__rosidl_typesupport_cpp.so[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/precision_positioning_interfaces/srv/detail/emergency_stop__type_support.cpp.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/precision_positioning_interfaces/srv/detail/home__type_support.c.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/precision_positioning_interfaces/srv/detail/reset_encoder__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/precision_positioning_interfaces/srv/move_absolute__type_support.cpp.o[0m
+[ 60%] Built target precision_positioning_interfaces__rosidl_typesupport_cpp
+[ 62%] [32mBuilding C object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/precision_positioning_interfaces/srv/detail/emergency_stop__type_support.c.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/precision_positioning_interfaces/srv/detail/move_absolute__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/precision_positioning_interfaces/srv/move_relative__type_support.cpp.o[0m
+[ 67%] [32m[1mLinking CXX shared library libprecision_positioning_interfaces__rosidl_typesupport_c.so[0m
+[ 68%] [32mBuilding C object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/precision_positioning_interfaces/srv/detail/reset_encoder__type_support.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/precision_positioning_interfaces/srv/detail/move_absolute__type_support.c.o[0m
+[ 70%] Built target precision_positioning_interfaces__rosidl_typesupport_c
+[ 71%] [32mBuilding CXX object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/precision_positioning_interfaces/srv/detail/move_relative__type_support.cpp.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/precision_positioning_interfaces/srv/detail/move_relative__type_support.c.o[0m
+[ 75%] [32m[1mLinking C shared library libprecision_positioning_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 75%] Built target precision_positioning_interfaces__rosidl_typesupport_introspection_c
+[ 76%] [32m[1mLinking CXX shared library libprecision_positioning_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 76%] Built target precision_positioning_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 78%] [32m[1mLinking CXX shared library libprecision_positioning_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 78%] Built target precision_positioning_interfaces__rosidl_typesupport_fastrtps_c
+[ 79%] [32m[1mLinking CXX shared library libprecision_positioning_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 79%] Built target precision_positioning_interfaces__rosidl_typesupport_introspection_cpp
+[ 79%] Built target precision_positioning_interfaces
+[ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 81%] Built target precision_positioning_interfaces__py
+[ 82%] [32mBuilding C object CMakeFiles/precision_positioning_interfaces__rosidl_generator_py.dir/rosidl_generator_py/precision_positioning_interfaces/srv/_move_absolute_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/precision_positioning_interfaces__rosidl_generator_py.dir/rosidl_generator_py/precision_positioning_interfaces/srv/_home_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/precision_positioning_interfaces__rosidl_generator_py.dir/rosidl_generator_py/precision_positioning_interfaces/srv/_emergency_stop_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/precision_positioning_interfaces__rosidl_generator_py.dir/rosidl_generator_py/precision_positioning_interfaces/srv/_reset_encoder_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/precision_positioning_interfaces__rosidl_generator_py.dir/rosidl_generator_py/precision_positioning_interfaces/srv/_move_relative_s.c.o[0m
+[ 90%] [32m[1mLinking C shared library rosidl_generator_py/precision_positioning_interfaces/libprecision_positioning_interfaces__rosidl_generator_py.so[0m
+[ 90%] Built target precision_positioning_interfaces__rosidl_generator_py
+[ 95%] [32mBuilding C object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/precision_positioning_interfaces/_precision_positioning_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/precision_positioning_interfaces/_precision_positioning_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/precision_positioning_interfaces/_precision_positioning_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/precision_positioning_interfaces/precision_positioning_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/precision_positioning_interfaces/precision_positioning_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/precision_positioning_interfaces/precision_positioning_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target precision_positioning_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target precision_positioning_interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] Built target precision_positioning_interfaces__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/ament_index/resource_index/rosidl_interfaces/precision_positioning_interfaces
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/emergency_stop.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/reset_encoder.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/home.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/move_relative.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/move_absolute.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_absolute__functions.c
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/emergency_stop__functions.c
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/emergency_stop__type_support.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_relative__functions.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/home__functions.c
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/reset_encoder__type_support.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_absolute__type_support.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/reset_encoder__functions.c
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_absolute__functions.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/emergency_stop__struct.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/reset_encoder__struct.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/home__struct.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/home__type_support.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/reset_encoder__functions.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/home__functions.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_absolute__struct.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_relative__functions.c
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/emergency_stop__functions.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_relative__type_support.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_relative__struct.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/msg
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/environment/library_path.sh
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/environment/library_path.dsv
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/lib/libprecision_positioning_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/lib/libprecision_positioning_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces
+-- Up-to-date: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv
+-- Up-to-date: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/home__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_absolute__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_relative__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/emergency_stop__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/reset_encoder__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/msg
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/lib/libprecision_positioning_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/lib/libprecision_positioning_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces
+-- Up-to-date: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv
+-- Up-to-date: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_absolute__rosidl_typesupport_introspection_c.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/emergency_stop__type_support.c
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/emergency_stop__rosidl_typesupport_introspection_c.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_absolute__type_support.c
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/reset_encoder__rosidl_typesupport_introspection_c.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/home__type_support.c
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/reset_encoder__type_support.c
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_relative__type_support.c
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/home__rosidl_typesupport_introspection_c.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_relative__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/msg
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/lib/libprecision_positioning_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/lib/libprecision_positioning_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/lib/libprecision_positioning_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/lib/libprecision_positioning_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces
+-- Up-to-date: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/emergency_stop.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/reset_encoder.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/move_absolute.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/move_relative.hpp
+-- Up-to-date: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_relative__type_support.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_absolute__traits.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/home__traits.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/reset_encoder__traits.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/reset_encoder__type_support.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/emergency_stop__builder.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/reset_encoder__builder.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/home__builder.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/emergency_stop__traits.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/emergency_stop__struct.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/emergency_stop__type_support.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_absolute__struct.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/reset_encoder__struct.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/home__type_support.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/home__struct.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_absolute__type_support.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_relative__builder.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_relative__traits.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_relative__struct.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_absolute__builder.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/home.hpp
+-- Up-to-date: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/msg
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces
+-- Up-to-date: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv
+-- Up-to-date: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_relative__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/emergency_stop__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/dds_fastrtps
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/home__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/reset_encoder__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/msg
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/lib/libprecision_positioning_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/lib/libprecision_positioning_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces
+-- Up-to-date: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv
+-- Up-to-date: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/reset_encoder__type_support.cpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_absolute__type_support.cpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/emergency_stop__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_absolute__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_relative__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/reset_encoder__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/emergency_stop__type_support.cpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/home__type_support.cpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/move_relative__type_support.cpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/include/precision_positioning_interfaces/precision_positioning_interfaces/srv/detail/home__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/lib/libprecision_positioning_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/lib/libprecision_positioning_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/lib/libprecision_positioning_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/lib/libprecision_positioning_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/environment/pythonpath.sh
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/environment/pythonpath.dsv
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces-1.0.0-py3.10.egg-info
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces-1.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/srv
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/srv/_emergency_stop.py
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/srv/_home.py
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/srv/_move_relative_s.c
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/srv/_reset_encoder.py
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/srv/_move_relative.py
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/srv/_home_s.c
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/srv/_move_absolute_s.c
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/srv/__init__.py
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/srv/_move_absolute.py
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/srv/_emergency_stop_s.c
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/srv/_reset_encoder_s.c
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/precision_positioning_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/_precision_positioning_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/_precision_positioning_interfaces_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/libprecision_positioning_interfaces__rosidl_generator_py.so
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/__init__.py
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/precision_positioning_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/precision_positioning_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/_precision_positioning_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+Listing '/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces'...
+Compiling '/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/__init__.py'...
+Listing '/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/srv'...
+Compiling '/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/srv/__init__.py'...
+Compiling '/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/srv/_emergency_stop.py'...
+Compiling '/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/srv/_home.py'...
+Compiling '/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/srv/_move_absolute.py'...
+Compiling '/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/srv/_move_relative.py'...
+Compiling '/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/srv/_reset_encoder.py'...
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/precision_positioning_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/precision_positioning_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/precision_positioning_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/precision_positioning_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/precision_positioning_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages/precision_positioning_interfaces/precision_positioning_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/lib/libprecision_positioning_interfaces__rosidl_generator_py.so
+-- Set runtime path of "/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/lib/libprecision_positioning_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/rust
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/rust/src
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/rust/src/srv
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/rust/src/srv/rmw.rs
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/rust/src/srv.rs
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/rust/src/lib.rs
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/rust/Cargo.toml
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/rust/build.rs
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/Home.idl
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/EmergencyStop.idl
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/ResetEncoder.idl
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/MoveAbsolute.idl
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/MoveRelative.idl
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/Home.srv
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/Home_Request.msg
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/Home_Response.msg
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/EmergencyStop.srv
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/EmergencyStop_Request.msg
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/EmergencyStop_Response.msg
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/ResetEncoder.srv
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/ResetEncoder_Request.msg
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/ResetEncoder_Response.msg
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/MoveAbsolute.srv
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/MoveAbsolute_Request.msg
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/MoveAbsolute_Response.msg
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/MoveRelative.srv
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/MoveRelative_Request.msg
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/srv/MoveRelative_Response.msg
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/ament_index/resource_index/package_run_dependencies/precision_positioning_interfaces
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/ament_index/resource_index/parent_prefix_path/precision_positioning_interfaces
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/environment/path.sh
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/environment/path.dsv
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/local_setup.bash
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/local_setup.sh
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/local_setup.zsh
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/local_setup.dsv
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/package.dsv
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/ament_index/resource_index/packages/precision_positioning_interfaces
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/export_precision_positioning_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/export_precision_positioning_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/export_precision_positioning_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/export_precision_positioning_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/precision_positioning_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/precision_positioning_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/precision_positioning_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/precision_positioning_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/export_precision_positioning_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/export_precision_positioning_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/export_precision_positioning_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/precision_positioning_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/precision_positioning_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/precision_positioning_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/precision_positioning_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/export_precision_positioning_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/export_precision_positioning_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/precision_positioning_interfacesConfig.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/cmake/precision_positioning_interfacesConfig-version.cmake
+-- Installing: /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/share/precision_positioning_interfaces/package.xml

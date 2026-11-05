@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6cdde88d1910f48d9d94.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "precision_positioning_interfaces__py",
+					"jsonFile" : "directory-precision_positioning_interfaces__py-cbc774997c2aeb3e60fd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_interfaces/precision_positioning_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "precision_positioning_interfaces__rs",
+					"jsonFile" : "directory-precision_positioning_interfaces__rs-bfe02acdacb4218a80a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_interfaces/precision_positioning_interfaces__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "precision_positioning_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_precision_positioning_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_precision_positioning_interfaces_egg-f60550247b3026f33a01.json",
+					"name" : "ament_cmake_python_build_precision_positioning_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_precision_positioning_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_precision_positioning_interfaces-13886b5ff85577d737da.json",
+					"name" : "ament_cmake_python_copy_precision_positioning_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_positioning_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_positioning_interfaces-de65a1a277f020cdad34.json",
+					"name" : "precision_positioning_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_positioning_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_positioning_interfaces__cpp-e45e54cda32d80f2d7bb.json",
+					"name" : "precision_positioning_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "precision_positioning_interfaces__py::@601ffe44700ebdb6d4a0",
+					"jsonFile" : "target-precision_positioning_interfaces__py-3231826c5fee1cf8d7dc.json",
+					"name" : "precision_positioning_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_positioning_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_positioning_interfaces__rosidl_generator_c-c1d9dbed6b3ebf504259.json",
+					"name" : "precision_positioning_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_positioning_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_positioning_interfaces__rosidl_generator_py-02b6f68091a896079596.json",
+					"name" : "precision_positioning_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_positioning_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_positioning_interfaces__rosidl_typesupport_c-3c42bff9320742bf6621.json",
+					"name" : "precision_positioning_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_positioning_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_positioning_interfaces__rosidl_typesupport_c__pyext-6a85472cda0b056ef4e4.json",
+					"name" : "precision_positioning_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_positioning_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_positioning_interfaces__rosidl_typesupport_cpp-220d8700d4d5749e5866.json",
+					"name" : "precision_positioning_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_positioning_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_positioning_interfaces__rosidl_typesupport_fastrtps_c-fee50d2b147ba4e886cc.json",
+					"name" : "precision_positioning_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_positioning_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_positioning_interfaces__rosidl_typesupport_fastrtps_c__pyext-e3d9f683985da03b7338.json",
+					"name" : "precision_positioning_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_positioning_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_positioning_interfaces__rosidl_typesupport_fastrtps_cpp-2c23d49ab96114ddea2a.json",
+					"name" : "precision_positioning_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_positioning_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_positioning_interfaces__rosidl_typesupport_introspection_c-36b199b68bf4af039950.json",
+					"name" : "precision_positioning_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_positioning_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_positioning_interfaces__rosidl_typesupport_introspection_c__pyext-eac98942425885bdf0a0.json",
+					"name" : "precision_positioning_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_positioning_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_positioning_interfaces__rosidl_typesupport_introspection_cpp-f3c02dea3002d420ec77.json",
+					"name" : "precision_positioning_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "precision_positioning_interfaces__rs::@c9b1629ac4e165844401",
+					"jsonFile" : "target-precision_positioning_interfaces__rs-81f7c9bcece2aa49de43.json",
+					"name" : "precision_positioning_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "precision_positioning_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-precision_positioning_interfaces_uninstall-94c8f24b278abda4fc3c.json",
+					"name" : "precision_positioning_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-026a5872f9a149d9422f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_interfaces",
+		"source" : "/home/uj/Downloads/precision_positioning_ws/src/precision_positioning_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

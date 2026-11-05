@@ -1,0 +1,24 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/precision_positioning_interfaces/srv/emergency_stop__type_support.cpp.o"
+  "CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/precision_positioning_interfaces/srv/emergency_stop__type_support.cpp.o.d"
+  "CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/precision_positioning_interfaces/srv/home__type_support.cpp.o"
+  "CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/precision_positioning_interfaces/srv/home__type_support.cpp.o.d"
+  "CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/precision_positioning_interfaces/srv/move_absolute__type_support.cpp.o"
+  "CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/precision_positioning_interfaces/srv/move_absolute__type_support.cpp.o.d"
+  "CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/precision_positioning_interfaces/srv/move_relative__type_support.cpp.o"
+  "CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/precision_positioning_interfaces/srv/move_relative__type_support.cpp.o.d"
+  "CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/precision_positioning_interfaces/srv/reset_encoder__type_support.cpp.o"
+  "CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/precision_positioning_interfaces/srv/reset_encoder__type_support.cpp.o.d"
+  "libprecision_positioning_interfaces__rosidl_typesupport_cpp.pdb"
+  "libprecision_positioning_interfaces__rosidl_typesupport_cpp.so"
+  "rosidl_typesupport_cpp/precision_positioning_interfaces/srv/emergency_stop__type_support.cpp"
+  "rosidl_typesupport_cpp/precision_positioning_interfaces/srv/home__type_support.cpp"
+  "rosidl_typesupport_cpp/precision_positioning_interfaces/srv/move_absolute__type_support.cpp"
+  "rosidl_typesupport_cpp/precision_positioning_interfaces/srv/move_relative__type_support.cpp"
+  "rosidl_typesupport_cpp/precision_positioning_interfaces/srv/reset_encoder__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/precision_positioning_interfaces__rosidl_typesupport_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

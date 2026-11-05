@@ -1,0 +1,14 @@
+pid_controller_node:
+  ros__parameters:
+    lead_mm_per_rev: 2.0
+    max_travel_mm: 180.79
+    backlash_mm: 0.00
+    kp: 8.0
+    ki: 0.1
+    kd: 0.5
+    ticks_per_rev: 1000
+
+encoder_simulator_node:
+  ros__parameters:
+    lead_mm: 2.0
+    ticks_per_rev: 1000

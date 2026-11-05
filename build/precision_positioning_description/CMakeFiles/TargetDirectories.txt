@@ -1,0 +1,9 @@
+/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_description/CMakeFiles/uninstall.dir
+/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_description/CMakeFiles/precision_positioning_description_uninstall.dir
+/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_description/CMakeFiles/test.dir
+/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_description/CMakeFiles/edit_cache.dir
+/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_description/CMakeFiles/rebuild_cache.dir
+/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_description/CMakeFiles/list_install_components.dir
+/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_description/CMakeFiles/install.dir
+/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_description/CMakeFiles/install/local.dir
+/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_description/CMakeFiles/install/strip.dir

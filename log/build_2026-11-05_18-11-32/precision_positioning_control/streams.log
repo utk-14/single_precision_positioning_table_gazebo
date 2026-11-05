@@ -1,0 +1,43 @@
+[0.538s] Invoking command in '/home/uj/Downloads/precision_positioning_ws/src/precision_positioning_control': AMENT_PREFIX_PATH=/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces LD_LIBRARY_PATH=/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_control/lib/python3.10/site-packages:/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/precision_positioning_control build --build-base /home/uj/Downloads/precision_positioning_ws/build/precision_positioning_control/build install --record /home/uj/Downloads/precision_positioning_ws/build/precision_positioning_control/install.log --install-scripts $base/lib/precision_positioning_control --single-version-externally-managed install_data
+[0.684s] running egg_info
+[0.684s] creating ../../build/precision_positioning_control/precision_positioning_control.egg-info
+[0.684s] writing ../../build/precision_positioning_control/precision_positioning_control.egg-info/PKG-INFO
+[0.684s] writing dependency_links to ../../build/precision_positioning_control/precision_positioning_control.egg-info/dependency_links.txt
+[0.684s] writing entry points to ../../build/precision_positioning_control/precision_positioning_control.egg-info/entry_points.txt
+[0.684s] writing requirements to ../../build/precision_positioning_control/precision_positioning_control.egg-info/requires.txt
+[0.684s] writing top-level names to ../../build/precision_positioning_control/precision_positioning_control.egg-info/top_level.txt
+[0.684s] writing manifest file '../../build/precision_positioning_control/precision_positioning_control.egg-info/SOURCES.txt'
+[0.697s] reading manifest file '../../build/precision_positioning_control/precision_positioning_control.egg-info/SOURCES.txt'
+[0.697s] writing manifest file '../../build/precision_positioning_control/precision_positioning_control.egg-info/SOURCES.txt'
+[0.697s] running build
+[0.697s] running build_py
+[0.697s] creating /home/uj/Downloads/precision_positioning_ws/build/precision_positioning_control/build
+[0.698s] creating /home/uj/Downloads/precision_positioning_ws/build/precision_positioning_control/build/lib
+[0.698s] creating /home/uj/Downloads/precision_positioning_ws/build/precision_positioning_control/build/lib/precision_positioning_control
+[0.698s] copying precision_positioning_control/encoder_simulator_node.py -> /home/uj/Downloads/precision_positioning_ws/build/precision_positioning_control/build/lib/precision_positioning_control
+[0.698s] copying precision_positioning_control/pid_controller_node.py -> /home/uj/Downloads/precision_positioning_ws/build/precision_positioning_control/build/lib/precision_positioning_control
+[0.698s] copying precision_positioning_control/__init__.py -> /home/uj/Downloads/precision_positioning_ws/build/precision_positioning_control/build/lib/precision_positioning_control
+[0.698s] running install
+[0.698s] running install_lib
+[0.699s] creating /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_control/lib/python3.10/site-packages/precision_positioning_control
+[0.699s] copying /home/uj/Downloads/precision_positioning_ws/build/precision_positioning_control/build/lib/precision_positioning_control/encoder_simulator_node.py -> /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_control/lib/python3.10/site-packages/precision_positioning_control
+[0.699s] copying /home/uj/Downloads/precision_positioning_ws/build/precision_positioning_control/build/lib/precision_positioning_control/pid_controller_node.py -> /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_control/lib/python3.10/site-packages/precision_positioning_control
+[0.699s] copying /home/uj/Downloads/precision_positioning_ws/build/precision_positioning_control/build/lib/precision_positioning_control/__init__.py -> /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_control/lib/python3.10/site-packages/precision_positioning_control
+[0.699s] byte-compiling /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_control/lib/python3.10/site-packages/precision_positioning_control/encoder_simulator_node.py to encoder_simulator_node.cpython-310.pyc
+[0.700s] byte-compiling /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_control/lib/python3.10/site-packages/precision_positioning_control/pid_controller_node.py to pid_controller_node.cpython-310.pyc
+[0.701s] byte-compiling /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_control/lib/python3.10/site-packages/precision_positioning_control/__init__.py to __init__.cpython-310.pyc
+[0.701s] running install_data
+[0.701s] creating /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_control/share/ament_index
+[0.701s] creating /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_control/share/ament_index/resource_index
+[0.701s] creating /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_control/share/ament_index/resource_index/packages
+[0.701s] copying resource/precision_positioning_control -> /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_control/share/ament_index/resource_index/packages
+[0.701s] copying package.xml -> /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_control/share/precision_positioning_control
+[0.701s] creating /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_control/share/precision_positioning_control/config
+[0.701s] copying config/controllers.yaml -> /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_control/share/precision_positioning_control/config
+[0.701s] running install_egg_info
+[0.703s] Copying ../../build/precision_positioning_control/precision_positioning_control.egg-info to /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_control/lib/python3.10/site-packages/precision_positioning_control-1.0.0-py3.10.egg-info
+[0.703s] running install_scripts
+[0.715s] Installing encoder_simulator_node script to /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_control/lib/precision_positioning_control
+[0.715s] Installing pid_controller_node script to /home/uj/Downloads/precision_positioning_ws/install/precision_positioning_control/lib/precision_positioning_control
+[0.715s] writing list of installed files to '/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_control/install.log'
+[0.733s] Invoked command in '/home/uj/Downloads/precision_positioning_ws/src/precision_positioning_control' returned '0': AMENT_PREFIX_PATH=/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces LD_LIBRARY_PATH=/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/uj/Downloads/precision_positioning_ws/build/precision_positioning_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_control/lib/python3.10/site-packages:/home/uj/Downloads/precision_positioning_ws/install/precision_positioning_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/precision_positioning_control build --build-base /home/uj/Downloads/precision_positioning_ws/build/precision_positioning_control/build install --record /home/uj/Downloads/precision_positioning_ws/build/precision_positioning_control/install.log --install-scripts $base/lib/precision_positioning_control --single-version-externally-managed install_data
